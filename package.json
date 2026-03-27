@@ -9,7 +9,7 @@
   "devDependencies": {},
   "dependencies": {
     "gulp-file-include": "^2.3.0",
-    "handlebars": "^4.7.7",
+    "handlebars": "^4.7.9",
     "sergey": "^0.0.13"
   },
   "scripts": {
