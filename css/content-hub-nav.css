@@ -8,7 +8,7 @@
     display: inline-block;
     font-weight: 400;
     font-size: 1.8rem;
-    margin: 1rem 0;
+    margin: 1rem 0 1.5rem;
     padding: 0 1rem 0 0;
     line-height: 120%;
 }
@@ -50,7 +50,7 @@
         border: 0 none;
     }
     .hub-nav p {
-        display: inline;
+        display: block;
         font-size: 1.8rem;
     }
     .content-nav-list li {
