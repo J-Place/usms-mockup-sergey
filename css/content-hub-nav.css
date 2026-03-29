@@ -19,7 +19,8 @@
 }
 .content-nav-list li {
     display: inline-block;
-    margin: 0.5rem 0.5rem 0.5rem 0;
+    margin: 0.5rem 5px 0.5rem 0;
+    letter-spacing: normal;
 }
 @media (min-width: 768px) {
     .hub-nav {
