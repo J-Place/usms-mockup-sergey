@@ -1636,11 +1636,13 @@
                 $('.list-control-display').css("z-index", "-1");
             });
             $(".toggle-list").click(function() {
+                hideFilters();
                 $('.results-list-large').hide();
                 $('.results-list-small').show();
                 $('.list-control-view__header span').toggleClass('active');
             });
             $(".toggle-grid").click(function() {
+                hideFilters();
                 $('.results-list-large').show();
                 $('.results-list-small').hide();
                 $('.list-control-view__header span').toggleClass('active');

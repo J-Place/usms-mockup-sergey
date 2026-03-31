@@ -1,13 +1,25 @@
+var toggleContainer = document.querySelector('div.list-control-filter');
+
+function showFilters() {
+    toggleContainer.classList.add('show-filters');
+}
+
+function hideFilters() {
+    toggleContainer.classList.remove('show-filters');
+}
+
 function handleShowFilters() {
     // var toggle = document.querySelector('button.toggle-filters');
-    var toggleContainer = document.querySelector('div.list-control-filter');
+    // var toggleContainer = document.querySelector('div.list-control-filter');
 
     if (toggleContainer.classList.contains('show-filters')) {
         console.log("Open Filters");
-        toggleContainer.classList.remove('show-filters');
+        // toggleContainer.classList.remove('show-filters');
+        hideFilters();
     } else {
         console.log("Close Filters");
-        toggleContainer.classList.add('show-filters');
+        // toggleContainer.classList.add('show-filters');
+        showFilters();
     }
 }
 
