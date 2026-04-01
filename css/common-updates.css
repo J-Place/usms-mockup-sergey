@@ -1,3 +1,14 @@
+select {
+  -webkit-appearance: none; /* Safari and Chrome */
+  -moz-appearance: none;    /* Firefox */
+  appearance: none;         /* Modern Browsers */
+}
+
+/* Specific for Internet Explorer 10+ */
+select::-ms-expand {
+  display: none;
+}
+
 /* !!!!!!!!!!!!!!!!!!!!!!!!! */
 /* Move this to Single Image component style sheet */
 .container-fluid p.image-credit, 
